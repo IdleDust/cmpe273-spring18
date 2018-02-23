@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+**/.idea/
+**/quizz2_env/
+#
+# Flask stuff:
+**/instance/
+**/.webassets-cache
+#
+# virtualenv
+**/.venv
+**/venv/
+**/ENV/
+
