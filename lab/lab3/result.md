@@ -7,4 +7,4 @@
 ![Alice](Alice.jpg)
 
 ### Client-Bob
-![BOB](Bob.jpg)
+![BOB](bob.jpg)

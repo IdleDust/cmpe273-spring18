@@ -48,4 +48,4 @@ User[Alice] Connected to the chat server.
 ![Alice](Alice.jpg)
 
 ### Client-Bob
-![BOB](Bob.jpg)
+![BOB](bob.jpg)
