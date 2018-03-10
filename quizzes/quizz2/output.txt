@@ -1,0 +1,36 @@
+curl -i http://127.0.0.1:5000/ 
+
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+Server: Werkzeug/0.14.1 Python/3.5.0
+Date: Sat, 24 Feb 2018 02:42:39 GMT
+
+Hello World!
+
+curl -i -X POST http://127.0.0.1:5000/users -d "name=foo"
+HTTP/1.0 201 CREATED
+Content-Type: application/json
+Content-Length: 24
+Server: Werkzeug/0.14.1 Python/3.5.0
+Date: Sat, 24 Feb 2018 02:43:41 GMT
+
+{"id": 1, "name": "foo"}%   
+
+
+curl -i -X GET http://127.0.0.1:5000/users/1 
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 24
+Server: Werkzeug/0.14.1 Python/3.5.0
+Date: Sat, 24 Feb 2018 02:44:55 GMT
+
+{"id": 1, "name": "foo"}%
+
+
+curl -i -X DELETE http://127.0.0.1:5000/users/1 
+HTTP/1.0 204 NO CONTENT
+Content-Type: text/html; charset=utf-8
+Server: Werkzeug/0.14.1 Python/3.5.0
+Date: Sat, 24 Feb 2018 02:45:28 GMT
+
