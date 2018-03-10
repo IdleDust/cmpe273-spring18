@@ -1,10 +1,10 @@
 
 ## Result
 ### Server
-![Server](Server.jpg)
+![Server](https://github.com/IdleDust/cmpe273-spring18/blob/master/lab/lab3/Server.jpg)
 
 ### Client-Alice
-![Server](Alice.jpg)
+![Server](https://github.com/IdleDust/cmpe273-spring18/blob/master/lab/lab3/Alice.jpg)
 
 ### Client-Bob
-![Server](Bob.jpg)
+![Server](https://github.com/IdleDust/cmpe273-spring18/blob/master/lab/lab3/Bob.jpg)
